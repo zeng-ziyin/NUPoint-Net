@@ -1,5 +1,5 @@
 # NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation
-Here is the PyTorch implementation of the paper **_NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation_##
+Here is the PyTorch implementation of the paper **_NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation_**
 
 ## Setup
 - Install packages with a setup file
