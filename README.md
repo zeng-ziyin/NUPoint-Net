@@ -17,11 +17,11 @@ cd ../../
 
 ## Train
 ```
-CUDA_VISIBLE_DEVICES=0 bash script/main_segmentation.sh cfgs/s3dis/pointnat.yaml wandb.use_wandb=True
+CUDA_VISIBLE_DEVICES=0 bash script/main_segmentation.sh cfgs/s3dis/nupointnet.yaml wandb.use_wandb=True
 ```
 ## Test
 ```
-CUDA_VISIBLE_DEVICES='0' bash script/main_segmentation.sh cfgs/s3dis/pointnat.yaml wandb.use_wandb=False mode=test --pretrained_path path/to/pretrained/model.pth
+CUDA_VISIBLE_DEVICES='0' bash script/main_segmentation.sh cfgs/s3dis/nupointnet.yaml wandb.use_wandb=False mode=test --pretrained_path path/to/pretrained/model.pth
 ```
 
 
