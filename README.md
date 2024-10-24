@@ -1,5 +1,10 @@
-# NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation
-Here is the PyTorch implementation of the paper **_NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation_**
+# PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer
+
+Here is the PyTorch implementation of the paper **_PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer_**.
+
+<div align='left'>
+<img src="fig1.jpg" alt="teaser" width="100%" />
+</div>
 
 ## Setup
 - Install packages with a setup file
@@ -17,11 +22,11 @@ cd ../../
 
 ## Train
 ```
-CUDA_VISIBLE_DEVICES=0 bash script/main_segmentation.sh cfgs/s3dis/nupointnet.yaml wandb.use_wandb=True
+CUDA_VISIBLE_DEVICES=0 bash script/main_segmentation.sh cfgs/s3dis/pointnat.yaml wandb.use_wandb=True
 ```
 ## Test
 ```
-CUDA_VISIBLE_DEVICES='0' bash script/main_segmentation.sh cfgs/s3dis/nupointnet.yaml wandb.use_wandb=False mode=test --pretrained_path path/to/pretrained/model.pth
+CUDA_VISIBLE_DEVICES='0' bash script/main_segmentation.sh cfgs/s3dis/pointnat.yaml wandb.use_wandb=False mode=test --pretrained_path path/to/pretrained/model.pth
 ```
 
 
