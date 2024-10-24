@@ -1,6 +1,6 @@
 # Not All Points Created Equally: Non-Uniformly Learning for Point Cloud Semantic Segmentation
 
-Here is the PyTorch implementation of **_NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation_**.
+Here is the implementation of **_NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation_**.
 
 We released the Code of S3DIS. And the next step will be released after receiving clear review comments.
 
