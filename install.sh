@@ -3,7 +3,7 @@
 
 # install miniconda3 if not installed yet.
 #wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-#bash Miniconda3-latest-Linux-x86_64.sh
+#bash Miniconda3-latest-Linux-x86_64.sh 
 #source ~/.bashrc
 
 export TORCH_CUDA_ARCH_LIST="7.5"   # a100: 8.0; v100: 7.0; 2080ti: 7.5; titan xp: 6.1
