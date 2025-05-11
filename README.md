@@ -1,4 +1,4 @@
-# Not All Points Created Equally: Non-Uniformly Learning for Point Cloud Semantic Segmentation
+# NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation
 
 Here is the implementation of **_NUPoint-Net: Non-Uniformly Learning for Point Cloud Semantic Segmentation_**.
 
