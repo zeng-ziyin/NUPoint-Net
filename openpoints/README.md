@@ -3,7 +3,7 @@
 OpenPoints is a library built for fairly benchmarking and easily reproducing point-based methods for point cloud understanding. It is born in the course of [PointNeXt](https://github.com/guochengqian/PointNeXt) project and is used as an engine therein.
 
 
-OpenPoints currently supports reproducing the following models:
+OpenPoints currently supports reproducing the following models: 
 - PointNet
 - DGCNN
 - DeepGCN
